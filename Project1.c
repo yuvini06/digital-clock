@@ -8,7 +8,7 @@
 #define BRIGHT 		1
 
 #define BLACK 		0
-#define RED		    1
+#define RED		1
 #define GREEN		2
 #define YELLOW		3
 #define BLUE		4
@@ -109,8 +109,8 @@ void textcolor(int attr, int fg, int bg)
 
 	/* 
 	 * Command is the control command to the terminal 
-     * textcolor(BRIGHT, BLACK, WHITE) will have characters printed in black in white background 
-     */
+         * textcolor(BRIGHT, BLACK, WHITE) will have characters printed in black in white background 
+         */
 	 //sprintf(command, "%c[%d;%dm", 0x1B, fg + 30, bg + 40);
 	 //sprintf(command, "%c[%d;%d;%dm", 0x1B, attr, fg + 30, bg + 40);
 	 //printf("%s", command);
